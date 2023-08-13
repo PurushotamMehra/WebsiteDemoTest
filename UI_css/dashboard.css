@@ -1,0 +1,453 @@
+/* {
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+} */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #fefabb;
+    opacity: 0.2;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffd747;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&family=REM:wght@300;400;500;600;700&family=Volkhov:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro_header_nav{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url(/UI/UI_Media/Background/back7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    padding-top: 1rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    /* background-color: #f441a5; */
+    /* background: rgb(1,14,12); */
+    /* background: linear-gradient(180deg, #b47421 0%, #ffffff00 80%); */
+}
+
+.logo{
+    height: 7rem;
+    margin-right: auto;
+}
+
+.intro_header_nav nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.intro_header_nav nav ul li a{
+    text-decoration: none;
+    color: #fff8e9;
+    font-weight: bold;
+    font-size: 1.4rem;
+    /* font-weight: 500; */
+}
+
+.intro_header_nav nav ul li a:hover{
+    color: #3B2D0C;
+    transition: 0.2s;
+}
+/* 
+nav button {
+    margin-left: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    border: none;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+}
+  
+nav button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+    /* color: #232222; 
+}
+  
+@keyframes ani {
+    0% {
+      background-position: 0%;
+}
+  
+    100% {
+      background-position: 400%;
+    }
+}
+  
+nav button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+  
+nav button:hover::before {
+    filter: blur(20px);
+}
+  
+nav button:active {
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+} */
+
+nav button {
+    padding: 1.3em 3em;
+    /* font-size: rem; */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+nav button:hover {
+    background-color: #c48423;
+    box-shadow: 0px 15px 20px rgba(229, 214, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+  
+nav button:active {
+    transform: translateY(-1px);
+}
+
+.intro_container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+
+}
+
+.intro_container h1{
+    font-family: 'Bebas Neue', sans-serif;
+    /* font-family: 'Volkhov', serif; */
+    font-weight: bold;
+    color: #f7f7f7;
+    font-size: 4rem;
+}
+
+.intro_container h1 .fhalf{
+    color: #f4ee36;
+    font-family: 'Bebas Neue', sans-serif;
+    /* font-family: 'Volkhov', serif; */
+
+}
+
+.intro_container h1 .lhalf{
+    color: #f43636;
+    font-family: 'Bebas Neue', sans-serif;
+    /* font-family: 'Volkhov', serif; */
+}
+
+.intro_container p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    
+}
+.intro_container button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+   
+.intro_container button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+   
+.intro_container button:hover {
+    color: #e8e8e8;
+}
+   
+.intro_container button:hover::before {
+    width: 100%;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.main_body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 8rem; */
+    /* background-color: #3B2D0C; */
+}
+
+.diabetes_container, .heart_container, .kidney_container, .cancer_container, .liver_container{
+    max-width: 65%;
+    padding-left: 12.5%;
+}
+
+.diabetes_body img, .heart_body img, .Kideny_body img, .cancer_body img, .liver_body img{
+    /* max-width: %; */
+    /* width: 50rem; */
+    height: 100%;
+    padding-right: 10%;
+
+}
+
+
+.diabetes_body, .heart_body, .Kideny_body, .cancer_body, .liver_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.diabetes_container h1, .heart_container h1, .kidney_container h1, .cancer_container h1, .liver_container h1{
+    font-family: 'Bebas Neue', sans-serif;
+    /* font-family: 'Volkhov', serif; */
+    font-weight: bold;
+    /* color: #040303; */
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.diabetes_container p, .heart_container p, .kidney_container p, .cancer_container p, .liver_container p{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Volkhov', serif; */
+    font-weight: 400;
+    /* color: #040303; */
+    font-size: 1.3rem;
+    /* margin-bottom: 1.5rem; */
+}
+
+.diabetes_body{
+    background-color: #4C1E4F;
+    padding: 2rem;
+    color: #FEE1C7;
+}
+
+.heart_body{
+    background-color: #A40606;
+    padding: 2rem;
+    color: #F4EDFC;
+}
+
+.Kideny_body{
+    background-color: #6026A6;
+    padding: 2rem;
+    color: #CAE7F5;
+}
+
+.cancer_body{
+    background-color: #ffb4c0;
+    padding: 2rem;
+    color: #A40606;
+}
+
+.liver_body{
+    background-color: #381662;
+    padding: 2rem;
+    color: #d7af70;
+}
+
+.diabetes_body button{color:#FEE1C7;border: 0.125em solid #FEE1C7;}
+.heart_body button {color:#F4EDFC;border: 0.125em solid #F4EDFC;
+}
+.Kideny_body button{color:#CAE7F5;border: 0.125em solid #CAE7F5;}
+.cancer_body button{color:#A40606;border: 0.125em solid #A40606;}
+.liver_body button{color:#d7af70;border: 0.125em solid #d7af70;}
+
+
+
+.diabetes_body button , .heart_body button , .Kideny_body button , .cancer_body button , .liver_body button {
+    appearance: none;
+    background-color: transparent;
+    /* border: 0.125em solid #1A1A1A; */
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    /* color: #000000; */
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    margin-bottom: 2rem;
+}
+   
+.diabetes_body button:disabled , .heart_body button:disabled , .Kideny_body button:disabled , .cancer_body button:disabled , .liver_body button:disabled {
+    pointer-events: none;
+}
+   
+.diabetes_body button:hover , .heart_body button:hover , .Kideny_body button:hover , .cancer_body button:hover, .liver_body button:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+   
+.diabetes_body button:active , .heart_body button:active , .Kideny_body button:active , .cancer_body button:active , .liver_body button:active{
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+.footer{
+    padding: 1rem;
+    background-color: #393838fb;
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
+    /* background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(81, 81, 82) 100%); */
+
+}
+
+.footer .social{
+    text-align : center;
+    padding-bottom: 25px;
+    color : #4f5152fb;
+    margin-top: 2rem;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: #000000;
+    /* border: 1px solid #ccc; */
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin : 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover{
+    opacity: 0.95;
+    /* color: #d9d7d7; */
+    /* color: #d9f5fd; */
+}
+.footer .social img{
+/* max-width: 50px; */
+width: 40px;
+/* padding: 10px; */
+}
+
+.footer ul{
+    margin-top :0;
+    padding:0;
+    list-style: none;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+    font-weight: 500;
+
+}
+
+.footer .copy{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #000000;
+}

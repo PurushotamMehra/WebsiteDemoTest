@@ -1,0 +1,21 @@
+#78aac3
+#b2dae4
+#f3cd85
+#f5a280
+#f9f9f9
+
+Fonts :
+https://fonts.google.com/specimen/REM?category=Serif,Sans+Serif,Display,Monospace&vfonly=true
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap" rel="stylesheet">
+
+
+font-family: 'REM', sans-serif;
+
+
+
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Handjet', cursive;
+font-family: 'REM', sans-serif;
